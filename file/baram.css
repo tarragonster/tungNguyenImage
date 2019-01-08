@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 #ad{
     text-align: center;
     color: white;
@@ -20,16 +25,15 @@
 
 .image{
 
-    width: 30%;
+    width: 29%;
     float: left;
-    border: 3px solid #96CEB4;
 
 }
 
-#container{
+.container{
 
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 11.1%;
+    padding-right: 11.1%;
 
     display: flex;
     justify-content: space-evenly;
@@ -39,6 +43,7 @@
 .img{
     max-width: 100%;
     max-height: 100%;
+    border: 3px solid #96CEB4;
 }
 
 .des{
@@ -55,4 +60,22 @@
 .des:hover {
 
     color: black;
+}
+
+.dtlImg{
+
+    padding-left: 4%;
+    padding-right: 4%;
+    width: 39%;
+    float:left;
+}
+
+.pic{
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #96CEB4;
+}
+.list{
+    padding-top: 2%;
+    float: left;
 }
